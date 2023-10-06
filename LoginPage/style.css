@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+#olho {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    transition: all 0.5s;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+}
+#login_menssage{
+    justify-content: center;
+    font-size: 40px;
+}
+.container_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 160px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 5px;
+}
+.inputs_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+}
+.buttons{
+    flex-direction: row;
+    margin-top: 5px;
+}
+.labels{
+    margin-bottom: 5px;
+}
+.inputs{
+    border-radius: 10px;
+    justify-items: center;
+    padding: 2px;
+}
+.btn{
+    margin-top: 0;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.637);
+    color: white;
+    transition: all 0.5s;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+#display_verify{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin: 10px 0px;
+    padding: 5px;
+    color: rgb(165, 73, 42);
+    transition: all 0.5s;
+}

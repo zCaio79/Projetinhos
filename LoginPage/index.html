@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SexSite</title>
+    <link rel="shortcut icon" href="img/favicon.ico">   
+</head>
+<body>
+    <script src="script.js"></script>
+    <div class="container_box">
+        <h1 id="login_menssage">login</h1>
+ 
+        <div class="inputs_box" id="inputs">
+            <label class="labels" for="email">Email</label>
+            <input type="email" class="inputs" id="myEmail" placeholder="  example@gmail.com">
+            <br>
+            <label class="labels" for="myPassword">Password</label>
+            <input type="password" class="inputs" id="myPassword"/>
+            </input>
+            <img src="img/olhofechado.png" id="olho" onclick="mostraSenha();" />
+            <br>
+            <div class="buttons">
+            <button type="submit" class="btn" id="login_button" onclick="verifyEmail()">Login</button>
+            <button class="btn "id="reset_button" onclick="limpaDiv()">Clear</button>
+            </div>
+            
+        </div>
+        <div id="display_verify"></div>
+    </div>
+   
+</body>
+</html>
